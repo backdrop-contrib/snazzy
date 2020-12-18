@@ -1,0 +1,326 @@
+/* Colors for style.css */
+body {
+  color: #444444;
+  background-color: #fafafa;
+}
+a {
+  color: #4c7599;
+}
+pre {
+  border: 1px solid #bbbbbb;
+  background-color: #fdfdfd;
+}
+ul.primary {
+  border-bottom: 1px solid #bbbbbb;
+}
+ul.primary li a {
+  background-color: #eaeaea;
+  border: 1px solid #bbbbbb;
+  border-bottom-color: transparent;
+}
+ul.primary li a.active,
+ul.primary li a:hover {
+  background: #fafafa;
+}
+ul.primary li a.active {
+  border-bottom: 2px solid #fafafa;
+}
+.l-header .breadcrumb a {
+  color: #ffffff;
+}
+h1 a,
+h2 a,
+h3 a,
+.site-name a {
+  color: #71a2cd;
+}
+.term-page .l-content article,
+.view-promoted .view-content > * {
+  border: 1px solid #bbbbbb;
+  background-color: #ffffff;
+}
+.l-footer {
+  background-color: #423e39;
+  color: #ffffff;
+}
+.l-footer a {
+  color: #71a2cd;
+}
+.field-type-taxonomy-term-reference .field-item a {
+  background: #ffffff;
+}
+.progress .filled {
+  background-color: #71a2cd;
+}
+tr.even {
+  background-color: #fafafa;
+}
+tr.odd {
+  background-color: #ffffff;
+}
+td.active {
+  background-color: #eaeaea;
+}
+.caption > figcaption {
+  border: none;
+  border-bottom: 1px solid #bbbbbb;
+  background-color: #fdfdfd;
+}
+.breadcrumb {
+  background-color: #eaeaea;
+}
+/* Colors for header.css */
+.l-header {
+  background-color: #423e39;
+  color: #ffffff;
+}
+.l-header ul.menu li a {
+  color: #ffffff;
+  background-color: #5b8cb7;
+  border-bottom: 1px solid #423e39;
+}
+.l-header ul.menu li a.active,
+.l-header ul.menu li a.active-trail {
+  color: #000000;
+}
+.l-header ul.menu li a.active::after,
+.l-header ul.menu li a.active-trail::after {
+  color: #ffffff;
+}
+/* @todo can this work with menu breakpoint settings? */
+@media (min-width: 48em) {
+  .l-header .menu-dropdown ul a span.sub-arrow {
+    border-color: transparent transparent transparent #ffffff;
+  }
+  [dir="rtl"] .l-header .menu-dropdown ul a span.sub-arrow {
+    border-color: transparent #ffffff transparent transparent;
+  }
+}
+/* Colors for backdrop-form.css */
+.form-required {
+  color: #e12828;
+}
+.filter-wrapper {
+  background-color: #fafafa;
+}
+.field-suffix .machine-name-value {
+  border: 1px solid #bbbbbb;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  background: #ffffff;
+}
+input.form-autocomplete,
+input.form-text,
+input.form-tel,
+input.form-date,
+input.form-time,
+input.form-email,
+input.form-url,
+input.form-color,
+input.form-number,
+input.form-search,
+input.form-file,
+textarea.form-textarea {
+  border: 1px solid #bbbbbb;
+}
+select.form-select {
+  border: 1px solid #bbbbbb;
+}
+input.form-text:focus,
+input.form-tel:focus,
+input.form-date:focus,
+input.form-time:focus,
+input.form-email:focus,
+input.form-url:focus,
+input.form-color:focus,
+input.form-number:focus,
+input.form-search:focus,
+input.form-file:focus,
+select:focus,
+textarea.form-textarea:focus {
+  border-color: #4c7599;
+}
+.form-item-disabled input {
+  background-color: #fafafa;
+  color: #444444;
+}
+#autocomplete {
+  border: 1px solid #bbbbbb;
+  border-top: 0;
+}
+#autocomplete li.selected {
+  background: #008be2;
+  color: #ffffff;
+}
+ul.action-links a:before,
+ul.action-links a:after {
+  background: #0074bd;
+}
+.button,
+input.form-submit,
+input.button-primary,
+button.button-primary,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background-color: #71a2cd;
+  color: #ffffff;
+}
+.button:hover,
+.button:focus,
+input.form-submit:hover,
+input.form-submit:focus,
+input.button-primary:hover,
+input.button-primary:focus,
+button.button-primary:hover,
+button.button-primary:focus,
+.ui-state-default:hover,
+.ui-state-default:focus,
+.ui-widget-content .ui-state-default:hover,
+.ui-widget-content .ui-state-default:focus,
+.ui-widget-header .ui-state-default:hover,
+.ui-widget-header .ui-state-default:focus {
+  box-shadow: 0 0 0 2px #4c7599;
+  background-color: #71a2cd;
+  color: #ffffff;
+}
+a.form-delete,
+input.button-danger,
+button.button-danger {
+  background-color: #e12828;
+}
+a.form-delete:hover,
+a.form-delete:focus,
+input.button-danger:hover,
+input.button-danger:focus,
+button.button-danger:hover,
+button.button-danger:focus {
+  background-color: #e12828;
+  box-shadow: 0 0 0 2px #e12828;
+}
+@media (min-width: 960px) {
+  .node-preview-container,
+  .node-form #edit-actions {
+    background: #fff;
+    border-top: 1px solid #bbbbbb;
+    box-shadow: 0 0 10px #00000044;
+  }
+}
+/* Colors for comment.css */
+.comments .indented:before {
+  border-left-color: #bbbbbb;
+  border-bottom-color: #bbbbbb;
+}
+.comments .indented:after {
+  border-top-color: #bbbbbb;
+  border-right-color: #bbbbbb;
+}
+.comment-header:before {
+  border-bottom-color: #bbbbbb;
+  border-left-color: #bbbbbb;
+  background: #fafafa;
+}
+.comment .comment-text {
+  border: 1px solid #bbbbbb;
+  background-color: #ffffff;
+}
+.comment-footer {
+  background: #eaeaea;
+}
+/* Colors for fieldset.css */
+fieldset {
+  border: 1px solid #bbbbbb;
+  background-color: #ffffff;
+}
+.js fieldset.collapsible .fieldset-legend a:before {
+  border-top-color: #000000;
+}
+/* Colors for pager.css */
+.item-list .pager li {
+  color: #ffffff;
+  background-color: #71a2cd;
+  border-left: 1px solid #4c7599;
+}
+.item-list .pager a {
+  color: #ffffff;
+}
+.item-list .pager a:hover {
+  box-shadow: 0 0 0 2px #4c7599;
+}
+.pager-first a:before,
+.pager-first a:after,
+.pager-previous a:before,
+.pager-next a:before,
+.pager-last a:before,
+.pager-last a:after {
+  border: 0.125rem solid #ffffff;
+}
+.item-list .pager .pager-current {
+  background-color: #bbbbbb;
+}
+/* Colors for search.css */
+.search-block-form .form-actions {
+  background: #5b8cb7;
+}
+.search-block-form .form-actions::before {
+  border: 4px solid #ffffff;
+}
+.search-block-form .form-actions::after {
+  border-bottom: 4px solid #ffffff;
+}
+/* Colors for vertical-tabs.css */
+.vertical-tabs {
+  border: 1px solid #bbbbbb;
+  background: #ffffff;
+}
+.vertical-tabs-pane {
+  border-bottom: 1px solid #bbbbbb;
+}
+@media (min-width: 48em) {
+  .vertical-tabs-pane {
+    border: none;
+  }
+  .vertical-tabs:before {
+    background: #fafafa;
+    border-right: 1px solid #bbbbbb;
+  }
+  [dir="rtl"] .vertical-tabs:before {
+    border-left: 1px solid #bbbbbb;
+  }
+}
+.vertical-tabs-list {
+  border-top: 1px solid #bbbbbb;
+}
+.vertical-tab-item {
+  border-bottom: 1px solid #bbbbbb;
+  background: #eaeaea;
+}
+.vertical-tab-link {
+  color: #4c7599;
+}
+.vertical-tab-link:focus,
+.vertical-tab-link:active,
+.vertical-tab-link:hover {
+  background: #fafafa;
+}
+.vertical-tab-selected.vertical-tab-item {
+  background-color: #ffffff;
+  border-right: 1px solid #ffffff; /* LTR */
+}
+ [dir="rtl"] .vertical-tab-selected.vertical-tab-item {
+  border-left: 1px solid #ffffff;
+}
+.vertical-tab-selected .vertical-tab-link {
+  background: #ffffff;
+}
+.vertical-tab-selected strong,
+.vertical-tab-selected .fieldset-legend {
+  color: #000000;
+}
+.vertical-tabs-pane > .vertical-tab-link {
+  background: #eaeaea;
+}

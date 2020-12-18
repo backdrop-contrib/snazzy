@@ -1,0 +1,67 @@
+.l-header .block-search-form {
+  float: right;
+}
+[dir=rtl] .l-header .block-search-form {
+  float: left;
+}
+.search-block-form > div {
+  display: flex;
+}
+.search-block-form input.form-search {
+  padding: 7px 5px;
+  line-height: 22px;
+  border-right: none;
+}
+.search-block-form .form-actions {
+  margin: 0;
+  width: 41px;
+  height: 39px;
+  position: relative;
+}
+.search-block-form .form-actions::before {
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.search-block-form .form-actions::after {
+  content: " ";
+  display: block;
+  width: 10px;
+  height: 1px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 11px;
+  right: 7px;
+}
+.search-block-form input.form-submit {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  font-size: 1rem;
+  text-transform: none;
+  width: 38px;
+  height: 38px;
+  text-indent: -333px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+.search-block-form input.form-submit:hover,
+.search-block-form input.form-submit:focus {
+  outline: none;
+  box-shadow: none;
+}
+.search-info {
+  font-size: 90%;
+}
+.search-results > li {
+  margin-bottom: 2rem;
+}

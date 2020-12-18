@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 1.05rem/1.6 "Open Sans", verdana, sans-serif;/* @todo */
+}
+a {
+  text-decoration: none;
+  position: relative;
+}
+pre {
+  max-width: 100%;
+  padding: 8px;
+  overflow-x: auto;
+}
+ul,
+ol {
+  padding: 0 0 0 1.7rem;
+}
+hr {
+  border: none;
+  border-top: 1px solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Spectral', serif;
+  margin: 1.1rem 0;
+  line-height: 135%;
+  font-style: italic;
+  font-weight: 700;
+}
+h1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+ul.primary {
+  margin: 1rem 0;
+}
+ul.primary li {
+  display: block;
+  margin: 0 7px;
+}
+ul.primary li a {
+  padding: 15px 20px;
+}
+ul.primary li a.active {
+  margin-bottom: -1px;
+}
+@media (min-width: 769px) {
+  ul.primary li {
+    display: inline-block;
+  }
+  ul.primary li a::after {
+    bottom: auto;
+    top: 0;
+  }
+}
+.submitted,
+.breadcrumb {
+  font-size: 94%;
+  padding: 10px 0;
+}
+.breadcrumb {
+  padding-left: 1em;
+}
+.submitted {
+  font-style: italic;
+}
+figcaption {
+  font-size: 94%;
+}
+.item-list ul {
+  padding: 0 0 0 1.7rem;
+}
+.item-list li {
+  margin: 0;
+}
+.layout a::after {
+  content: "";
+  display: inline-block;
+  border-bottom: 2px solid;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transition: left 0.2s, width 0.2s;
+}
+h1 a,
+h2 a,
+h3 a,
+.site-name a {
+  display: inline-block;
+}
+a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.layout .tabledrag-handle::after,
+a.button::after,
+.contextual-links a::after,
+.layout .cke_toolbox a::after,
+.layout .dropbutton a::after {
+  content: none;
+  left: auto;
+  transition: none;
+}
+.l-messages,
+.l-page-title h1,
+.l-top,
+.l-content .block,
+.l-middle,
+.l-bottom,
+.l-footer {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+@media (min-width: 960px) {
+  .l-messages,
+  .l-middle,
+  .l-bottom,
+  .l-footer {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .l-page-title h1 {
+    padding-top: 1rem;
+  }
+  .l-content .block {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+.term-page .l-content article,
+.view-promoted .view-content > * {
+  padding: 1rem 1rem 2rem;
+  margin: 1rem 0;
+}
+@media (min-width: 960px) {
+  .term-page .l-content,
+  .view-promoted .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .term-page .l-content article,
+  .view-promoted .view-content > * {
+    width: 45%;
+    margin: 2% 0;
+  }
+  .term-page .term-listing-heading {
+    width: 100%;
+  }
+}
+.block-hero .contextual-links-wrapper {
+  top: 40px;
+  right: 40px;
+}
+.block-hero .block-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.block-hero .block-content {
+  font-size: 26px;
+}
+.menu-tree li.leaf {
+  list-style-image: none;
+  list-style-type: square;
+}
+.field-type-taxonomy-term-reference .field-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.field-type-taxonomy-term-reference .field-item a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid;
+  margin: 0 10px 10px 0;
+}
+ul.inline,
+ul.links.inline {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+ul.inline li,
+ul.links.inline li {
+  padding: 0;
+  margin: 10px 10px 10px 0;
+}
+table {
+  display: block;
+  border-collapse: collapse;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1em 0;
+  padding-bottom: 1em;
+}
+td, th {
+  padding: 5px 15px;
+  vertical-align: top;
+}
+table.sticky-enabled,
+table.sticky-header {
+  display: table;
+  width: 100%;
+}
+blockquote {
+  margin-left: 0;
+  font-size: 1rem;
+  display: table;
+}
+blockquote::before {
+  content: "„";/* todo*/
+  font-size: 60px;
+  line-height: 1px;
+  display: table-cell;
+  padding: 0 15px;
+}
+body.admin-path {
+  font-size: 1rem;
+}
+body.admin-path .container {
+  max-width: 1600px;
+  padding: 0 2rem;
+}
+.dropbutton-wrapper {
+  min-width: 10em;
+}
+img.align-right,
+img.align-left,
+figure.align-left,
+figure.align-right {
+  float: none;
+  margin: 1em 0;
+  display: table;
+}
+@media (min-width: 960px) {
+  img.align-left,
+  img.align-right {
+    diplay: block;
+  }
+  img.align-left,
+  figure.align-left {
+    float: left;
+    margin: 6px 2em .7em 0;
+  }
+  img.align-right,
+  figure.align-right {
+    float: right;
+    margin: 6px 0 .7em 2em;
+  }
+}
+.caption > figcaption {
+  border: none;
+}
+.editor-image-align label.option {
+  margin-right: 10px;
+}
