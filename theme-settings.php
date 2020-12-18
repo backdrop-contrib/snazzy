@@ -58,13 +58,13 @@ function snazzy_form_system_theme_settings_alter(&$form, &$form_state) {
     );
   }
   // Other settings.
-  $form['settings'] = array(
+  $form['other'] = array(
     '#type' => 'fieldset',
     '#title' => t('Other Settings'),
-    '#collapsible' => TRUE,
-    '#description' => t('Note: you can not preview this here, you first have to save it. The preview frame is too small, follow the link to open the preview in a new window.'),
+    '#collapsible' => FALSE,
+    '#description' => t('Note: you can not preview this here, you first have to save it. And the preview frame is too small to show the split display.'),
   );
-  $form['settings']['front_header_split'] = array(
+  $form['other']['front_header_split'] = array(
     '#type' => 'checkbox',
     '#title' => t('Front page header split'),
     '#default_value' => theme_get_setting('front_header_split', 'snazzy'),
