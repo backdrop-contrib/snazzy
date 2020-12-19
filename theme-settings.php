@@ -44,6 +44,7 @@ function snazzy_form_system_theme_settings_alter(&$form, &$form_state) {
       'buttons',
       'buttonsborder',
       'buttonstext',
+      'activemenu',
       'footer',
       'footertext',
     );

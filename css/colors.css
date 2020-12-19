@@ -76,6 +76,9 @@ td.active {
 .block-hero a {
   color: #fffdff;
 }
+.menu-tree li a.active {
+  color: #000000;
+}
 /* Colors for header.css */
 .l-header {
   background-color: #423e39;
@@ -209,6 +212,9 @@ button.button-danger:hover,
 button.button-danger:focus {
   background-color: #e12828;
   box-shadow: 0 0 0 2px #e12828;
+}
+.search-block-form input.form-submit:hover {
+  background: transparent;
 }
 @media (min-width: 960px) {
   .node-preview-container,

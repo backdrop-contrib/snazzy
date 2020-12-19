@@ -1,6 +1,3 @@
-.l-header .block-search-form {
-  float: right;
-}
 [dir=rtl] .l-header .block-search-form {
   float: left;
 }
