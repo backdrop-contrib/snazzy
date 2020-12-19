@@ -46,8 +46,6 @@ $info = array(
         'footertext' => '#feffff',
       ),
     ),
-  ),
-  'schemes' => array(
     'brightgreen' => array(
       'title' => t('Bright and green'),
       'colors' => array(
