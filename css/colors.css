@@ -21,6 +21,8 @@ ul.primary li a {
 ul.primary li a.active,
 ul.primary li a:hover {
   background: #fafafa;
+  border: 1px solid #bbbbbb;
+  border-bottom-color: transparent;
 }
 ul.primary li a.active {
   border-bottom: 2px solid #fafafa;
