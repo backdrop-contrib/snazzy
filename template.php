@@ -5,31 +5,6 @@
  */
 
 /**
- * Implements hook_html_head_alter().
- */
-function snazzy_html_head_alter(&$head_elements) {
-  // @todo local font delivery.
-  $head_elements['googlefont_pre'] = array(
-    '#type' => 'head_tag',
-    '#tag' => 'link',
-    '#attributes' => 
-      array (
-        'rel' => 'preconnect',
-        'href' => 'https://fonts.gstatic.com',
-    ),
-  );
-  $head_elements['googlefont_style'] = array(
-    '#type' => 'head_tag',
-    '#tag' => 'link',
-    '#attributes' => 
-      array (
-        'rel' => 'stylesheet',
-        'href' => 'https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,400;1,700&display=swap',
-    ),
-  );
-}
-
-/**
  * Implements hook_preprocess_page().
  */
 function snazzy_preprocess_page(&$variables) {

@@ -3,6 +3,7 @@ description = Todo.
 type = theme
 backdrop = 1.x
 
+stylesheets[all][] = css/spectral-font.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/components/header.css
 stylesheets[all][] = css/components/backdrop-form.css
