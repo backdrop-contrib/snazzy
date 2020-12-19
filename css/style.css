@@ -163,11 +163,14 @@ a.button::after,
   right: 40px;
 }
 .block-hero .block-title {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
 }
 .block-hero .block-content {
   font-size: 26px;
+}
+.front .block-hero-no-image {
+  background-image: url("../img/spiral-1200.jpg");
 }
 .menu-tree li.leaf {
   list-style-image: none;

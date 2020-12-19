@@ -4,7 +4,7 @@ body {
   background-color: #fafafa;
 }
 a {
-  color: #4c7599;
+  color: #43728c;
 }
 pre {
   border: 1px solid #bbbbbb;
@@ -32,7 +32,7 @@ h1 a,
 h2 a,
 h3 a,
 .site-name a {
-  color: #71a2cd;
+  color: #5588a5;
 }
 .term-page .l-content article,
 .view-promoted .view-content > * {
@@ -44,13 +44,13 @@ h3 a,
   color: #feffff;
 }
 .l-footer a {
-  color: #71a2cd;
+  color: #5588a5;
 }
 .field-type-taxonomy-term-reference .field-item a {
   background: #fffffd;
 }
 .progress .filled {
-  background-color: #71a2cd;
+  background-color: #5588a5;
 }
 tr.even {
   background-color: #fafafa;
@@ -83,7 +83,7 @@ td.active {
 }
 .l-header ul.menu li a {
   color: #fffeff;
-  background-color: #71a2cd;
+  background-color: #5588a5;
   border-bottom: 1px solid #423e39;
 }
 .l-header ul.menu li a.active,
@@ -150,7 +150,7 @@ input.form-search:focus,
 input.form-file:focus,
 select:focus,
 textarea.form-textarea:focus {
-  border-color: #4c7599;
+  border-color: #43728c;
 }
 .form-item-disabled input {
   background-color: #fafafa;
@@ -175,7 +175,7 @@ button.button-primary,
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-  background-color: #71a2cd;
+  background-color: #5588a5;
   color: #fffeff;
 }
 .button:hover,
@@ -192,8 +192,8 @@ button.button-primary:focus,
 .ui-widget-content .ui-state-default:focus,
 .ui-widget-header .ui-state-default:hover,
 .ui-widget-header .ui-state-default:focus {
-  box-shadow: 0 0 0 2px #4c7598;
-  background-color: #71a2cd;
+  box-shadow: 0 0 0 2px #3c6a84;
+  background-color: #5588a5;
   color: #fffeff;
 }
 a.form-delete,
@@ -250,14 +250,14 @@ fieldset {
 /* Colors for pager.css */
 .item-list .pager li {
   color: #fffeff;
-  background-color: #71a2cd;
-  border-left: 1px solid #4c7598;
+  background-color: #5588a5;
+  border-left: 1px solid #3c6a84;
 }
 .item-list .pager a {
   color: #fffeff;
 }
 .item-list .pager a:hover {
-  box-shadow: 0 0 0 2px #4c7598;
+  box-shadow: 0 0 0 2px #3c6a84;
 }
 .pager-first a:before,
 .pager-first a:after,
@@ -308,7 +308,7 @@ fieldset {
   background: #eaeaea;
 }
 .vertical-tab-link {
-  color: #4c7599;
+  color: #43728c;
 }
 .vertical-tab-link:focus,
 .vertical-tab-link:active,
