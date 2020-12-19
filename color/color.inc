@@ -36,7 +36,7 @@ $info = array(
 
         'header' => '#423e39',
         'headertext' => '#fffffe',
-        'herobg' => '#aaaaaa',
+        'herobg' => '#909ba2',
         'herotext' => '#fffdff',
         'buttons' => '#5588a5',
         'buttonsborder' => '#3c6a84',
