@@ -14,4 +14,8 @@ stylesheets[all][] = css/components/search.css
 stylesheets[all][] = css/components/pager.css
 stylesheets[all][] = css/colors.css
 
+ckeditor_stylesheets[] = css/spectral-font.css
+ckeditor_stylesheets[] = css/style.css
+ckeditor_stylesheets[] = css/colors.css
+
 settings[front_header_split] = TRUE
