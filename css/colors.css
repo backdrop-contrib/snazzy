@@ -14,7 +14,7 @@ ul.primary {
   border-bottom: 1px solid #bbbbbb;
 }
 ul.primary li a {
-  background-color: #eaeaea;
+  background-color: #f2f2f2;
   border: 1px solid #bbbbbb;
   border-bottom-color: transparent;
 }
@@ -68,7 +68,7 @@ tr.odd {
   background-color: #fffffd;
 }
 td.active {
-  background-color: #eaeaea;
+  background-color: #f2f2f2;
 }
 .caption > figcaption {
   border: none;
@@ -76,7 +76,7 @@ td.active {
   background-color: #fdfdfd;
 }
 .breadcrumb {
-  background-color: #eaeaea;
+  background-color: #f2f2f2;
 }
 .block-hero {
   color: #fffdff;
@@ -255,7 +255,7 @@ button.button-danger:focus {
   background-color: #fffffd;
 }
 .comment-footer {
-  background: #eaeaea;
+  background: #f2f2f2;
 }
 /* Colors for fieldset.css */
 fieldset {
@@ -335,7 +335,7 @@ fieldset {
 }
 .vertical-tab-item {
   border-bottom: 1px solid #bbbbbb;
-  background: #eaeaea;
+  background: #f2f2f2;
 }
 .vertical-tab-link {
   color: #43728c;
@@ -360,5 +360,5 @@ fieldset {
   color: #000000;
 }
 .vertical-tabs-pane > .vertical-tab-link {
-  background: #eaeaea;
+  background: #f2f2f2;
 }
