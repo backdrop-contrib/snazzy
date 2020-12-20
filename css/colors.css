@@ -27,9 +27,6 @@ ul.primary li a:hover {
 ul.primary li a.active {
   border-bottom: 2px solid #fafafa;
 }
-.l-header .breadcrumb a {
-  color: #ffffff;
-}
 h1 a,
 h2 a,
 h3 a,
