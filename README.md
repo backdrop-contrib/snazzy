@@ -10,14 +10,20 @@ Stylish modern theme with Color module support.
 
 Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/snazzy/issues)
 
+## Known Issues
+
+Custom flexible layout templates won't show the start page header and top region
+side by side. But all other layout templates that ship with a "Top" region will do.
+
 ## Current Maintainers
 
 - [Indigoxela](https://github.com/indigoxela)
 
 ## Credits
 
-Default hero background image by StockSnap,
-https://pixabay.com/photos/spiral-staircase-stairwell-steps-926736/
+Written for Backdrop by Indigoxela
+
+Default hero background image for frontpage by [StockSnap](https://pixabay.com/photos/spiral-staircase-stairwell-steps-926736/)
 (Pixabay License)
 
 Spectral font created by [Production Type](https://www.productiontype.com/)
