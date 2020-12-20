@@ -54,6 +54,13 @@ h3 a,
 .progress .filled {
   background-color: #5588a5;
 }
+tr.even,
+tr.odd {
+  border-bottom: 1px solid #bbbbbb;
+}
+th {
+  border-bottom: 3px solid #bbbbbb;
+}
 tr.even {
   background-color: #fafafa;
 }
