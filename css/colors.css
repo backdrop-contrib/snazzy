@@ -107,6 +107,9 @@ td.active {
   [dir="rtl"] .l-header .menu-dropdown ul a span.sub-arrow {
     border-color: transparent #fffeff transparent transparent;
   }
+  .l-header ul.menu li a {
+    border-bottom: none;
+  }
 }
 /* Colors for backdrop-form.css */
 .form-required {
@@ -274,6 +277,18 @@ fieldset {
 .pager-last a:before,
 .pager-last a:after {
   border: 0.125rem solid #ffffff;
+}
+.pager-first a:before,
+.pager-first a:after,
+.pager-previous a:before {
+  border-top-width: 0;
+  border-right-width: 0;
+}
+.pager-last a:before,
+.pager-last a:after,
+.pager-next a:before {
+  border-bottom-width: 0;
+  border-left-width: 0;
 }
 .item-list .pager .pager-current {
   background-color: #bbbbbc;

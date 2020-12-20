@@ -78,18 +78,6 @@ ul.pager {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 .pager-first a:before,
-.pager-first a:after,
-.pager-previous a:before {
-  border-top-width: 0;
-  border-right-width: 0;
-}
-.pager-last a:before,
-.pager-last a:after,
-.pager-next a:before {
-  border-bottom-width: 0;
-  border-left-width: 0;
-}
-.pager-first a:before,
 .pager-last a:before {
   margin-left: -0.1875rem;
 }

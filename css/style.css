@@ -158,6 +158,9 @@ a.button::after,
     width: 100%;
   }
 }
+.block-hero {
+  padding: 50px 1rem;
+}
 .block-hero .contextual-links-wrapper {
   top: 40px;
   right: 40px;

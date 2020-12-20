@@ -134,4 +134,7 @@
   [dir="rtl"] .l-header .menu-dropdown span.sub-arrow {
     border-right-color: transparent;
   }
+  .l-header ul.menu li a::after {
+    bottom: 1px;
+  }
 }
