@@ -38,6 +38,16 @@ h3 a,
   border: 1px solid #bbbbbb;
   background-color: #fffffd;
 }
+.view-mode-teaser {
+  border-color: #bbbbbb;
+}
+.node-readmore a {
+  background-color: #5588a5;
+  color: #fffeff;
+}
+.node-readmore a:hover {
+  box-shadow: 0 0 0 2px #3c6a84;
+}
 .l-footer {
   background-color: #423e3a;
   color: #feffff;

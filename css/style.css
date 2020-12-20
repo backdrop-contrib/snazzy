@@ -199,6 +199,31 @@ ul.inline li,
 ul.links.inline li {
   padding: 0;
   margin: 10px 10px 10px 0;
+  line-height: 36px;
+}
+.term-page .l-content article ul.inline,
+.view-promoted .view-content ul.inline {
+  flex-direction: row-reverse;
+}
+.node-readmore a {
+  display: inline-block;
+  padding: 0 10px;
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s;
+}
+.node-readmore a::after {
+  content: none;
+}
+.view-mode-teaser {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid;
+}
+.term-page .l-content .view-mode-teaser,
+.view-promoted .view-mode-teaser {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 table {
   display: block;
