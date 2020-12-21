@@ -59,11 +59,17 @@ function snazzy_form_system_theme_settings_alter(&$form, &$form_state) {
     );
   }
   // Other settings.
+  if (module_exists('color')) {
+    $help = t('Note: you can not preview this here, you first have to save it. And the preview frame is too small to show the split display.');
+  }
+  else {
+    $help = NULL;
+  }
   $form['other'] = array(
     '#type' => 'fieldset',
     '#title' => t('Other Settings'),
     '#collapsible' => FALSE,
-    '#description' => t('Note: you can not preview this here, you first have to save it. And the preview frame is too small to show the split display.'),
+    '#description' => $help,
   );
   $form['other']['front_header_split'] = array(
     '#type' => 'checkbox',
