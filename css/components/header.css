@@ -10,10 +10,7 @@
   min-width: 240px;
 }
 .l-header-inner {
-  padding: 1rem 0 0;
-}
-.front-header-split .l-header-inner {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 .name-and-slogan {
   font-size: 26px;

@@ -174,8 +174,13 @@ a.button::after,
   right: 40px;
 }
 .block-hero .block-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
+}
+@media (min-width: 960px) {
+  .block-hero .block-title {
+    font-size: 50px;
+  }
 }
 .block-hero .block-content {
   font-size: 26px;
