@@ -110,6 +110,7 @@ a:hover::after {
   width: 100%;
   left: 0;
 }
+.contextual-links-wrapper a::after,
 .layout .tabledrag-handle::after,
 a.button::after,
 .contextual-links a::after,
