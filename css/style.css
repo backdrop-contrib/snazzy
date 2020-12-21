@@ -61,6 +61,14 @@ ul.primary li a.active {
     top: 0;
   }
 }
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.l-wrapper {
+  flex: 1 0 auto;
+}
 .submitted,
 .breadcrumb {
   font-size: 94%;
