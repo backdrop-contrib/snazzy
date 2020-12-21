@@ -3,6 +3,16 @@
  * Backdrop form styling.
  */
 .form-item,
+.ui-widget,
+.ui-dialog * {
+  font-family: 'Open Sans', verdana, sans-serif;
+}
+.image-library-choose-file,
+.image-library-choose-file:hover {
+  margin: 5px;
+  border-radius: 0;
+}
+.form-item,
 .field-name-comment-body {
   padding: 0;
   margin: 0 0 1.5em;

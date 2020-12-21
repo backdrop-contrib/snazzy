@@ -243,6 +243,40 @@ button.button-danger:focus {
     box-shadow: 0 0 10px #00000044;
   }
 }
+.editor-dialog {
+  background-color: #fafafa;
+  color: #444444;
+}
+.ui-widget-content {
+  color: #444444;
+}
+.ui-dialog .ui-dialog-titlebar,
+.ui-dialog .ui-dialog-buttonpane {
+  color: #444444;
+  background: #f2f2f2;
+  border-color: #bbbbbb;
+}
+.ui-widget-content a {
+  color: #43728c;
+}
+.ui-widget.ui-widget-content {
+  border-color: #bbbbbb;
+}
+form .cke_source {
+  background: #fafafa;
+}
+.image-library-choose-file {
+  background: #f2f2f2;
+  color: #444444;
+  border-color: #bbbbbb;
+}
+.image-library-choose-file:hover {
+  background: #fdfdfd;
+  border-color: #bbbbbb;
+}
+.image-library-image {
+  box-shadow: none;
+}
 /* Colors for comment.css */
 .comments .indented:before {
   border-left-color: #bbbbbb;
