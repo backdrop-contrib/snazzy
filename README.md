@@ -6,14 +6,19 @@ Stylish modern theme with Color module support.
 
 - Install this theme using the official [Backdrop CMS instructions](https://backdropcms.org/guide/themes)
 
+## Configuration
+
+On larger screens Snazzy puts the "header" region and the "top" region side by side.
+If you do not want that, you can turn it off on the theme's settings page
+(admin/appearance/settings/snazzy). Just uncheck the "Front page header split" option and save.
+
+In flexible layout templates, Snazzy get's the next region right after the header to create the "split header".
+
+If the Color module is enabled, you can choose between three color presets or create a custom one.
+
 ## Issues
 
 Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/snazzy/issues)
-
-## Known Issues
-
-Custom flexible layout templates won't show the start page header and top region
-side by side. But all other layout templates that ship with a "Top" region will do.
 
 ## Current Maintainers
 
