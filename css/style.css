@@ -232,11 +232,13 @@ ul.links.inline li {
   padding-bottom: 1.5em;
   border-bottom: 1px solid;
 }
-.term-page .l-content .view-mode-teaser,
 .view-promoted .view-mode-teaser {
   margin: 0;
   padding: 0;
   border: none;
+}
+.term-page .l-content .view-mode-teaser {
+  padding: 1rem 1rem 2rem;
 }
 table {
   display: block;
