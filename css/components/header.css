@@ -53,8 +53,12 @@
   .admin-bar .front-header-split .l-header {
     margin-top: -33px;
   }
+  /* Weird webkit bug with display: table? */
+  .front-header-split .l-top:not(*:root) {
+    left: calc(50% - 1px);
+    width: calc(50% + 1px);
+  }
 }
-
 /** menus in header **/
 .l-header .block {
   margin: 1rem 0;
