@@ -24,7 +24,8 @@
   line-height: 1.1;
 }
 .l-header .logo img {
-  max-height: 200px;
+  max-height: 150px;
+  margin-bottom: 1rem;
 }
 .l-header .logo::after {
   content: none;
