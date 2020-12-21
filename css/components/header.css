@@ -10,7 +10,7 @@
   min-width: 240px;
 }
 .l-header-inner {
-  padding: 1rem;
+  padding: 1rem 1rem 0;
 }
 .name-and-slogan {
   font-size: 26px;
@@ -21,6 +21,7 @@
   font-family: 'Spectral', serif;
   font-size: 40px;
   font-weight: 700;
+  line-height: 1.1;
 }
 .l-header .logo img {
   max-height: 200px;
@@ -55,10 +56,10 @@
 
 /** menus in header **/
 .l-header .block {
-  margin: 0 0 1.5rem;
+  margin: 1rem 0;
 }
 .l-header .block:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 .l-header ul.menu {
   margin: 0;
