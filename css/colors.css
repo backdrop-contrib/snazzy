@@ -68,10 +68,12 @@ tr.odd {
 th {
   border-bottom: 3px solid #bbbbbb;
 }
-tr.even {
+tr.even,
+.admin-dblog .dblog-error.even:not(:hover) {
   background-color: #fafafa;
 }
-tr.odd {
+tr.odd,
+.admin-dblog .dblog-error.odd:not(:hover) {
   background-color: #fffffd;
 }
 td.active {

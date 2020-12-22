@@ -349,6 +349,26 @@ tr.drag-previous td {
 a.tabledrag-handle .handle {
   margin: -0.2em 0.5em;
 }
+.admin-dblog .dblog-error.even:not(:hover) .active,
+.admin-dblog .dblog-error.odd:not(:hover) .active {
+  background-color: inherit;
+}
+.admin-dblog .dblog-error.even td,
+.admin-dblog .dblog-error.odd td,
+.admin-dblog .dblog-error.even:hover td,
+.admin-dblog .dblog-error.odd:hover td {
+  background-color: #ff000021 !important;/* No color module switch. */
+}
+.admin-path tr:hover td {
+  background-color: #ffff003b;
+}
+.js .dropbutton-widget {
+  border-radius: 0;
+  min-width: 6em;
+}
+.dropbutton-arrow {
+  color: #555;
+}
 .node-preview-container {
   padding: 15px;
 }
