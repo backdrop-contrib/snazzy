@@ -240,7 +240,7 @@ button.button-danger:focus {
   .node-form #edit-actions {
     background: #fffffd;
     border-top: 1px solid #bbbbbb;
-    box-shadow: 0 0 10px #00000044;
+    box-shadow: 0 0 10px #0004;
   }
 }
 .editor-dialog {
