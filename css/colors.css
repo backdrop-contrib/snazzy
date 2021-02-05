@@ -405,3 +405,9 @@ fieldset {
 .vertical-tabs-pane > .vertical-tab-link {
   background: #f2f2f2;
 }
+.maintenance-page {
+  background-color: #bbbbbc;
+}
+.maintenance-page .l-container {
+  background-color: #f2f2f2;
+}

@@ -13,6 +13,7 @@ stylesheets[all][] = css/components/vertical-tabs.css
 stylesheets[all][] = css/components/search.css
 stylesheets[all][] = css/components/pager.css
 stylesheets[all][] = css/colors.css
+stylesheets[screen][] = css/maintenance.css
 
 ckeditor_stylesheets[] = css/spectral-font.css
 ckeditor_stylesheets[] = css/style.css
