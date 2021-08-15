@@ -56,9 +56,8 @@ ul.primary li a.active {
   ul.primary li {
     display: inline-block;
   }
-  ul.primary li a::after {
-    bottom: auto;
-    top: 0;
+  ul.primary li a {
+    background-position: center 0;
   }
 }
 .layout {
@@ -89,37 +88,33 @@ figcaption {
 .item-list li {
   margin: 0;
 }
-.layout a::after {
-  content: "";
-  display: inline-block;
-  border-bottom: 2px solid;
-  width: 0;
-  height: 0;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transition: left 0.2s, width 0.2s;
+a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.2s;
+}
+a:hover {
+  background-size: 100% 2px;
+}
+.cke_bottom a,
+.contextual-links-wrapper a,
+.layout .tabledrag-handle,
+a.button,
+.contextual-links a,
+.layout .cke_toolbox a,
+.layout .dropbutton a,
+.node-readmore a,
+.pager a {
+  background-image: none;
+  transition: none;
 }
 h1 a,
 h2 a,
 h3 a,
 .site-name a {
-  display: inline-block;
-}
-a:hover::after {
-  width: 100%;
-  left: 0;
-}
-.cke_bottom a::after,
-.contextual-links-wrapper a::after,
-.layout .tabledrag-handle::after,
-a.button::after,
-.contextual-links a::after,
-.layout .cke_toolbox a::after,
-.layout .dropbutton a::after {
-  content: none;
-  left: auto;
-  transition: none;
+  background-position: center 94%;
 }
 .l-messages,
 .l-page-title h1,

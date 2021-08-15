@@ -125,6 +125,22 @@
 .l-header li.has-children ul ul a {
   text-indent: 2em;
 }
+.layout .menu-dropdown a,
+.layout .menu-dropdown ul a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: center calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.2s;
+}
+.layout .menu-dropdown a:hover,
+.layout .menu-dropdown ul a:hover,
+.layout .menu-dropdown ul a:focus,
+.layout .menu-dropdown ul a:active {
+  background-size: 100% 2px;
+}
+
+
 /* @todo can this work with menu breakpoint settings? */
 @media (min-width: 48em) {
   .front-page-split .l-header .block-content,
