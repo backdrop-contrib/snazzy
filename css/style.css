@@ -88,18 +88,17 @@ figcaption {
 .item-list li {
   margin: 0;
 }
-a {
+a:not(.contextual-links-trigger) {
   background-image: linear-gradient(currentColor, currentColor);
   background-position: center 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.2s;
 }
-a:hover {
+a:not(.contextual-links-trigger):hover {
   background-size: 100% 2px;
 }
 .cke_bottom a,
-.contextual-links-wrapper a,
 .layout .tabledrag-handle,
 a.button,
 .contextual-links a,
