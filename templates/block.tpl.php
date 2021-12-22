@@ -13,7 +13,7 @@
  */
 ?>
 <div class="<?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
-<div class="block-hero-inner">
+<div class="block-inner">
 <?php print render($title_prefix); ?>
 <?php if ($title): ?>
   <h2 class="block-title"><?php print $title; ?></h2>

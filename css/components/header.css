@@ -1,5 +1,5 @@
 .front .l-header,
-.front .l-top .block-hero {
+.front .l-top .block:first-child {
   display: table;
   width: 100%;
   padding: 0;
@@ -33,22 +33,19 @@
 .front .l-top .block-hero {
   margin: 0;
 }
-.front .l-top .block-hero-inner {
-  padding: 4vw;
-}
 @media (min-width: 960px) {
   .front-header-split .l-header > *,
-  .front-header-split .l-top .block-hero-inner {
+  .front-header-split .l-top .block:first-child .block-inner {
     display: table-cell;
     vertical-align: middle;
     padding: 4vw;
   }
   .front-header-split .l-header,
-  .front-header-split .l-top .block-hero {
+  .front-header-split .l-top .block:first-child {
     width: 50%;
     height: 100vh;
   }
-  .front-header-split .l-top .block-hero {
+  .front-header-split .l-top .block:first-child {
     position: absolute;
     top: 0;
     right: 0;
@@ -61,8 +58,11 @@
     display: block;
   }
   .front-header-split .l-header + .flexible-row .row .l-col {
+    position: static;
+  }
+  .front-header-split .l-header + .flexible-row .row .l-col .block:first-child {
     position: absolute;
-    display: block;
+    display: table;
     top: 0;
     right: 0;
     width: 50%;
@@ -70,19 +70,10 @@
     margin: 0;
     padding: 0;
   }
-  .front-header-split .l-header + .flexible-row .row .l-col > * {
-    display: table;
-    height: 100vh;
-    width: 100%;
-  }
-  .front-header-split .l-header + .flexible-row .row .l-col .block {
+  .front-header-split .l-header + .flexible-row .row .l-col .block:first-child .block-inner {
     display: table-cell;
     vertical-align: middle;
-  }
-  /* Weird webkit bug with display: table? */
-  .front-header-split .l-top .block-hero:not(*:root) {
-    left: calc(50% - 1px);
-    width: calc(50% + 1px);
+    padding: 4vw;
   }
 }
 /** menus in header **/
