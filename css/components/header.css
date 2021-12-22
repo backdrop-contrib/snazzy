@@ -1,11 +1,11 @@
 .front .l-header,
-.front .l-top .block-hero {
+.front .l-top {
   display: table;
   width: 100%;
   padding: 0;
 }
 .front .l-header .block-content,
-.front .l-top .block-hero .block-content {
+.front .l-top .block-content {
   text-align: initial;
   min-width: 240px;
 }
@@ -33,22 +33,19 @@
 .front .l-top .block-hero {
   margin: 0;
 }
-.front .l-top .block-hero-inner {
-  padding: 4vw;
-}
 @media (min-width: 960px) {
   .front-header-split .l-header > *,
-  .front-header-split .l-top .block-hero-inner {
+  .front-header-split .l-top > * {
     display: table-cell;
     vertical-align: middle;
     padding: 4vw;
   }
   .front-header-split .l-header,
-  .front-header-split .l-top .block-hero {
+  .front-header-split .l-top {
     width: 50%;
     height: 100vh;
   }
-  .front-header-split .l-top .block-hero {
+  .front-header-split .l-top {
     position: absolute;
     top: 0;
     right: 0;
@@ -80,7 +77,7 @@
     vertical-align: middle;
   }
   /* Weird webkit bug with display: table? */
-  .front-header-split .l-top .block-hero:not(*:root) {
+  .front-header-split .l-top:not(*:root) {
     left: calc(50% - 1px);
     width: calc(50% + 1px);
   }
@@ -147,7 +144,7 @@
 /* @todo can this work with menu breakpoint settings? */
 @media (min-width: 48em) {
   .front-page-split .l-header .block-content,
-  .front-page-split .l-top .block-hero .block-content {
+  .front-page-split .l-top .block-content {
     display: inline-block;
   }
   .l-header ul.menu li {
