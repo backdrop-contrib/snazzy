@@ -1,7 +1,4 @@
-.front .l-header,
-.front .l-top .block:first-child {
-  display: table;
-  width: 100%;
+.front-header-split .l-top {
   padding: 0;
 }
 .front .l-header .block-content,
@@ -34,7 +31,10 @@
   margin: 0;
 }
 @media (min-width: 960px) {
-  .front-header-split .l-top {
+  .front .l-header,
+  .front .l-top .block:first-child {
+    display: table;
+    width: 100%;
     padding: 0;
   }
   .front-header-split .l-header > *,
