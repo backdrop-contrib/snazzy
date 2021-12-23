@@ -8,12 +8,14 @@ Stylish modern theme with Color module support.
 
 ## Configuration
 
-On larger screens Snazzy puts the "Header" region and the "Top" region side by side.
-Note that the "Top" region is supposed to contain a single hero block.
-If you do not want that "split header", you can turn it off on the theme's settings page
-(admin/appearance/settings/snazzy). Just uncheck the "Front page header split" option and save.
+On larger screens and on the home page Snazzy puts the "Header" region and the
+ first block inside the "Top" region side by side.
+If you do not want that "split header", you can turn it off on the theme's
+ settings page (admin/appearance/settings/snazzy). Just uncheck the "Front page
+ header split" option and save.
 
-In flexible layout templates, Snazzy get's the next region right after the header to create the "split header".
+In flexible layout templates, Snazzy get's the first block in the next region
+ right after the header to create the "split header".
 
 If the Color module is enabled, you can choose between three color presets or create a custom one.
 
