@@ -1,11 +1,8 @@
-.front .l-header,
-.front .l-top {
-  display: table;
-  width: 100%;
+.front-header-split .l-top {
   padding: 0;
 }
 .front .l-header .block-content,
-.front .l-top .block-content {
+.front .l-top .block-hero .block-content {
   text-align: initial;
   min-width: 240px;
 }
@@ -34,18 +31,24 @@
   margin: 0;
 }
 @media (min-width: 960px) {
+  .front .l-header,
+  .front .l-top .block:first-child {
+    display: table;
+    width: 100%;
+    padding: 0;
+  }
   .front-header-split .l-header > *,
-  .front-header-split .l-top > * {
+  .front-header-split .l-top .block:first-child .block-inner {
     display: table-cell;
     vertical-align: middle;
     padding: 4vw;
   }
   .front-header-split .l-header,
-  .front-header-split .l-top {
+  .front-header-split .l-top .block:first-child {
     width: 50%;
     height: 100vh;
   }
-  .front-header-split .l-top {
+  .front-header-split .l-top .block:first-child {
     position: absolute;
     top: 0;
     right: 0;
@@ -53,13 +56,22 @@
   .admin-bar .front-header-split .l-header {
     margin-top: -33px;
   }
+  /* Prevent contextual link from slipping under the admin bar. */
+  .admin-bar .front-header-split .l-top .block:first-child .contextual-links-wrapper,
+  .admin-bar .front-header-split .l-header + .flexible-row .row .l-col .block:first-child .contextual-links-wrapper {
+    margin-top: 43px;
+    margin-right: 10px;
+  }
   /* Flexible layout templates need special handling */
   .front-header-split .l-header + .flexible-row .l-flexible-row {
     display: block;
   }
   .front-header-split .l-header + .flexible-row .row .l-col {
+    position: static;
+  }
+  .front-header-split .l-header + .flexible-row .row .l-col .block:first-child {
     position: absolute;
-    display: block;
+    display: table;
     top: 0;
     right: 0;
     width: 50%;
@@ -67,19 +79,10 @@
     margin: 0;
     padding: 0;
   }
-  .front-header-split .l-header + .flexible-row .row .l-col > * {
-    display: table;
-    height: 100vh;
-    width: 100%;
-  }
-  .front-header-split .l-header + .flexible-row .row .l-col .block {
+  .front-header-split .l-header + .flexible-row .row .l-col .block:first-child .block-inner {
     display: table-cell;
     vertical-align: middle;
-  }
-  /* Weird webkit bug with display: table? */
-  .front-header-split .l-top:not(*:root) {
-    left: calc(50% - 1px);
-    width: calc(50% + 1px);
+    padding: 4vw;
   }
 }
 /** menus in header **/
@@ -143,10 +146,6 @@
 
 /* @todo can this work with menu breakpoint settings? */
 @media (min-width: 48em) {
-  .front-page-split .l-header .block-content,
-  .front-page-split .l-top .block-content {
-    display: inline-block;
-  }
   .l-header ul.menu li {
     margin: 10px 10px 0 0;
     float: left;
