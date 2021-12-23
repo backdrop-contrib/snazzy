@@ -146,10 +146,6 @@
 
 /* @todo can this work with menu breakpoint settings? */
 @media (min-width: 48em) {
-  .front-page-split .l-header .block-content,
-  .front-page-split .l-top .block-hero .block-content {
-    display: inline-block;
-  }
   .l-header ul.menu li {
     margin: 10px 10px 0 0;
     float: left;
