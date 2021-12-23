@@ -8,7 +8,7 @@ Stylish modern theme with Color module support.
 
 ## Configuration
 
-On larger screens and on the home page Snazzy puts the "Header" region and the
+On larger screens on the home page Snazzy puts the "Header" region and the
  first block inside the "Top" region side by side.
 If you do not want that "split header", you can turn it off on the theme's
  settings page (admin/appearance/settings/snazzy). Just uncheck the "Front page
