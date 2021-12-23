@@ -34,6 +34,9 @@
   margin: 0;
 }
 @media (min-width: 960px) {
+  .front-header-split .l-top {
+    padding: 0;
+  }
   .front-header-split .l-header > *,
   .front-header-split .l-top .block:first-child .block-inner {
     display: table-cell;
@@ -52,6 +55,12 @@
   }
   .admin-bar .front-header-split .l-header {
     margin-top: -33px;
+  }
+  /* Prevent contextual link from slipping under the admin bar. */
+  .admin-bar .front-header-split .l-top .block:first-child .contextual-links-wrapper,
+  .admin-bar .front-header-split .l-header + .flexible-row .row .l-col .block:first-child .contextual-links-wrapper {
+    margin-top: 43px;
+    margin-right: 10px;
   }
   /* Flexible layout templates need special handling */
   .front-header-split .l-header + .flexible-row .l-flexible-row {
