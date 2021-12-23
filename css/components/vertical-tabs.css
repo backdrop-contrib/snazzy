@@ -122,8 +122,8 @@
 .vertical-tab-link span{
   display: block;
 }
-a.vertical-tab-link::after {
-  content: none;
+a.vertical-tab-link {
+  background-image: none;
 }
 .vertical-tab-link strong,
 .vertical-tab-link .fieldset-legend {
