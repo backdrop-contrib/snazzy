@@ -12,6 +12,7 @@ stylesheets[all][] = css/components/fieldset.css
 stylesheets[all][] = css/components/vertical-tabs.css
 stylesheets[all][] = css/components/search.css
 stylesheets[all][] = css/components/pager.css
+stylesheets[all][] = css/components/cards.css
 stylesheets[all][] = css/colors.css
 stylesheets[screen][] = css/maintenance.css
 
