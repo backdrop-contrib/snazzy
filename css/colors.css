@@ -245,6 +245,10 @@ button.button-danger:focus {
     box-shadow: 0 0 10px #0004;
   }
 }
+.ui-dialog,
+.ui-widget {
+  background: #fffffd;
+}
 .editor-dialog {
   background-color: #fafafa;
   color: #444444;
@@ -410,4 +414,8 @@ fieldset {
 }
 .maintenance-page .l-container {
   background-color: #f2f2f2;
+}
+/* Modules and libraries */
+:root {
+  --fc-page-bg-color: #f2f2f2;
 }

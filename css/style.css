@@ -233,12 +233,10 @@ ul.links.inline li {
   padding: 1rem 1rem 2rem;
 }
 table {
-  display: block;
   border-collapse: collapse;
   max-width: 100%;
   overflow-x: auto;
   margin: 1em 0;
-  padding-bottom: 1em;
 }
 td, th {
   padding: 5px 15px;
@@ -300,4 +298,10 @@ figure.align-right {
 }
 .editor-image-align label.option {
   margin-right: 10px;
+}
+.fullcalendar-view {
+  margin: 1rem 0 2rem;
+}
+.ui-widget-shadow {
+  box-shadow: 0 0 8px #0003;
 }
