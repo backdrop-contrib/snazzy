@@ -21,9 +21,9 @@
 }
 @media (min-width: 1023px) {
   .view-promoted-cards .views-grid-box img {
-    -webkit-transform: scale(88%);
-    transform: scale(88%);
-    transition: transform .35s;
+    -webkit-transform: scale(92%);
+    transform: scale(92%);
+    transition: transform .3s;
   }
   .view-promoted-cards .views-grid-box:hover img {
     -webkit-transform: scale(100%);
