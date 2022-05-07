@@ -76,6 +76,9 @@ ul.primary li a.active {
 .breadcrumb {
   padding-left: 1em;
 }
+.block-system-breadcrumb {
+  margin: 1em 0;
+}
 .submitted {
   font-style: italic;
 }
