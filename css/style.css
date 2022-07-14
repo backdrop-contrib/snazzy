@@ -65,6 +65,13 @@ ul.primary li a.active {
   flex-direction: column;
   min-height: 100vh;
 }
+.layout .layout {
+  display: block;
+  min-height: 0;
+}
+.layout .layout .container {
+  padding: 0;
+}
 .l-wrapper {
   flex: 1 0 auto;
 }
