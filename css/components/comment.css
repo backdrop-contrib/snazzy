@@ -6,44 +6,57 @@
 }
 .comments .indented {
   position: relative;
-  padding-left: 1.25em;
+  padding-left: 1.25em; /* LTR */
   margin-top: -1.5em;
 }
-.comments .indented:before,
-.comments .indented:after {
+[dir="rtl"] .comments .indented {
+  padding-left: 0;
+  padding-right: 1.25em;
+}
+.comments .indented::before,
+.comments .indented::after {
   content: '';
   position: absolute;
   display: block;
   border: 2px solid transparent;
 }
-.comments .indented:before {
+.comments .indented::before {
   top: -1em;
-  left: 0;
+  left: 0; /* LTR */
   width: 0.5em;
   height: 1.5em;
 }
-.comments .indented:after {
+[dir="rtl"] .comments .indented::before {
+  left: auto;
+  right: 0;
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.comments .indented::after {
   content: '';
   position: absolute;
   top: 0.6875em;
-  left: 0.4375em;
+  left: 0.4375em; /* LTR */
   width: 0.25em;
   height: 0.25em;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   transform-origin: right top;
 }
-[dir="rtl"] .comment {
-  padding: 0;
+[dir="rtl"] .comments .indented::after {
+  left: auto;
+  right: 0.9em;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
 }
 .comment-header {
   position: relative;
 }
-.comment-header:before {
+.comment-header::before {
   content: "";
   position: absolute;
   top: 100%;
-  left: 32px;
+  left: 32px; /* LTR */
   width: 12px;
   height: 12px;
   display: block;
@@ -53,7 +66,7 @@
   pointer-events: none;
   z-index: 0;
 }
-[dir="rtl"] .comment:before {
+[dir="rtl"] .comment-header::before {
   right: 32px;
   left: auto;
 }
@@ -70,11 +83,6 @@
   -ms-flex-align: center;
   align-items: center;
   padding: 0 0 0.5em;
-}
-[dir="rtl"] .comment .attribution {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
 }
 .comment .attribution img {
   display: block;
@@ -134,7 +142,7 @@
   margin: 0;
   padding: 0 0.5em; /* Ensure spacing on login links */
 }
-.comment-footer .links.inline li:after {
+.comment-footer .links.inline li::after {
   display: none;
 }
 .comment-footer .links.inline a {
