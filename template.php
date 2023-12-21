@@ -60,3 +60,24 @@ function snazzy_ckeditor_settings_alter(&$settings, $format) {
     $settings['contentsCss'][] = $path . '/css/colors.css';
   }
 }
+
+/**
+ * Implements hook_tinymce_options_alter().
+ */
+function snazzy_tinymce_options_alter(array &$options, $format) {
+  global $base_url, $base_path;
+  $path = $base_path . backdrop_get_path('theme', 'snazzy');
+
+  $color_uris = theme_get_setting('color.files');
+  if ($color_uris) {
+    // We only have a single color css file.
+    $color_uri = reset($color_uris);
+    $url = file_create_url($color_uri);
+    $color_css = substr($url, strlen($base_url));
+    $options['tiny_options']['content_css'][] = $color_css;
+  }
+  else {
+    // No color module setting, add the theme's default file.
+    $options['tiny_options']['content_css'][] = $path . '/css/colors.css';
+  }
+}

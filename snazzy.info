@@ -19,4 +19,7 @@ stylesheets[screen][] = css/maintenance.css
 ckeditor_stylesheets[] = css/spectral-font.css
 ckeditor_stylesheets[] = css/style.css
 
+tinymce_content_css[] = css/spectral-font.css
+tinymce_content_css[] = css/style.css
+
 settings[front_header_split] = TRUE
