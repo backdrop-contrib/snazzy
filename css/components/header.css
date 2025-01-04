@@ -53,6 +53,10 @@
     top: 0;
     right: 0;
   }
+  [dir="rtl"] .front-header-split .l-top .block:first-child {
+    right: auto;
+    left: 0;
+  }
   .admin-bar .front-header-split .l-header {
     margin-top: calc(1px - var(--admin-bar-height, 34px));
   }
