@@ -415,6 +415,9 @@ fieldset {
 .maintenance-page .l-container {
   background-color: #f2f2f2;
 }
+.user-simplified-page-wrapper {
+  background-color: #fffffd;
+}
 /* Modules and libraries */
 :root {
   --fc-page-bg-color: #f2f2f2;
