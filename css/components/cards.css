@@ -8,7 +8,7 @@
   text-align: center;
 }
 .view-promoted-cards .views-view-grid {
-  gap: 3rem;
+  gap: var(--views-responsive-grid--layout-gap, 3rem);
 }
 .view-promoted-cards .views-grid-box {
   border: none;
